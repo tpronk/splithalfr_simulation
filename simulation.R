@@ -1,8 +1,10 @@
-# This simulation tests whether the mean of a large number
-# Flanagon-Rulon corrected reliabilies calculated by the splithalfr
-# on a
-# approaches Cronbach's alpha for normally distributed answers
-# that correspond to a single factor model with equal factor loadings
+# Made by Thomas Pronk, pronkthomas@gmail.com, 2019-05-24
+
+# This simulation generates scores from a single factor model with equal factor loadings
+# with different levels of reliability. Next, mean Flanagon-Rulon reliabilies and Cronbach's
+# alphas are calculated of these scores, and compared to eachother.
+# For more information, see the vignette "about_splithalfr" included in the splithalfr package.
+
 library(splithalfr)
 library(psych)
 library(dplyr)
