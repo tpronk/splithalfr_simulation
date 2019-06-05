@@ -14,7 +14,7 @@ library(splithalfr)
 library(psych)
 library(dplyr)
 
-# For reproducibility, set the random to The Answer to Life the Universe and Everything
+# For reproducibility, set the random seed to The Answer to Life the Universe and Everything
 set.seed(42)
 
 # splithalfr sets function; extracts "answer" column from data and returns it as the "answers" element of a list
