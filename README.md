@@ -10,7 +10,7 @@ These simulations were aimed to numerically reproduce an equivalence that has be
 Tests were simulated in which 1000 participants answered 50 items. Essentially tau-equivalent answers were generated as follows. Each participant had a trait score T, which was drawn from a standard normal distribution. Each item score was the sum of the participant’s trait score and a noise term E drawn from a normal distribution with a mean of zero and a standard deviation of Y. In nine simulations, Y was varied from 1 to 9, reflecting tests that were increasingly unreliable in measuring the trait T. For each simulation, Cronbach’s alpha was calculated via the [psyc](https://cran.r-project.org/package=psych) package, as well as the mean Flanagan-Rulon coefficient over 10,000 permutated splits via the [splithalfr package](https://github.com/tpronk/splithalfr). Because 10,000 permutated splits is an approximation of all possible splits, we expected that the mean Flanagan-Rulon coefficient of these splits was close to Cronbach's Alpha.
 
 ## Results
-Per simulation, the table below shows Y, Cronbach's alpha, the Flanagan-Rulon coefficient, and the difference between Cronbach's alpha and the Flanagan-Rulon coefficient. Note that, across stimulations, Cronbach's alpha and the Flanagan-Rulon coeffficient differed at most by 0.00052.
+The table below shows Y, Cronbach's alpha, the Flanagan-Rulon coefficient, and the difference between Cronbach's alpha and the Flanagan-Rulon coefficient. Coefficients and difference were rounded to five decimal points. Note that, across stimulations, Cronbach's alpha and the Flanagan-Rulon coeffficient differed at most by 0.00052.
 
 | Y | Cronbach’s alpha | Flanagan-Rulon | difference |
 |---|-----------------:|---------------:|-----------:|
